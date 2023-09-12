@@ -1,1 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <title>Background Changer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+<div id="main" class="w-full h-screen duration-200" style="background-color:black">
+    <h1 class="text-white py-40 px-40 text-8xl font-mono font-black opacity-10"> Background Changer
+      
+    </h1>
+
+<div class="fixed flex flex-wrap justify-center bottom-12 px-2 inset-x-0">
+  
+<div class="flex flex-wrap justify-center gap-2 shadow-lg bg-white px-3 py-2 rounded-xl">
+  <button id="red" class="outline-none px-4 py-1 rounded-full text-white shadow-lg"  style="background-color:red"> 
+  Red
+  </button>
+
+  <button id="green" class="outline-none px-4 py-1 rounded-full text-white shadow-lg"  style='background-color:green'> 
+  Green
+  </button>
+
+  <button id="blue" class="outline-none px-4 py-1 rounded-full text-white shadow-lg"  style='background-color:blue'> 
+  Blue
+  </button>
+   <button id="olive" class="outline-none px-4 py-1 rounded-full text-white shadow-lg"  style='background-color:olive'> 
+    Olive
+  </button>
+  <button id="purple" class="outline-none px-4 py-1 rounded-full text-white shadow-lg"  style='background-color:purple'> 
+    Purple
+  </button>
+  <button id="gold" class="outline-none px-4 py-1 rounded-full text-white shadow-lg"  style='background-color:gold'> 
+    Gold
+  </button>
+  <button id="skyblue" class="outline-none px-4 py-1 rounded-full text-white shadow-lg"  style='background-color:skyblue'> 
+    Skyblue
+  </button>
+
+  <button id="rest" class="outline-none px-4 py-1 rounded-full text-white shadow-lg"  style='background-color:gray'> 
+    Reset
+    </button>
+
+</div>
+
+</div>
+
+ </div>
+</body>
+<script>
+
+let purple=document.getElementById('purple').addEventListener('click',()=>{
+    document.getElementById('main').style.backgroundColor='purple'
+})
+let gold=document.getElementById('gold').addEventListener('click',()=>{
+    document.getElementById('main').style.backgroundColor='gold'
+})
+let skyblue=document.getElementById('skyblue').addEventListener('click',()=>{
+    document.getElementById('main').style.backgroundColor='skyblue'
+})
+
+
+let red=document.getElementById('red').addEventListener('click',()=>{
+    document.getElementById('main').style.backgroundColor='red'
+})
+let blue=document.getElementById('blue').addEventListener('click',()=>{
+    document.getElementById('main').style.backgroundColor='blue'
+})
+let green=document.getElementById('green').addEventListener('click',()=>{
+    document.getElementById('main').style.backgroundColor='green'
+})
+let olive=document.getElementById('olive').addEventListener('click',()=>{
+    document.getElementById('main').style.backgroundColor='olive'
+})
+
+
+let rest=document.getElementById('rest').addEventListener('click',()=>{
+    document.getElementById('main').style.backgroundColor='black'
+})
+
+</script>
+</html>
