@@ -1,7 +1,7 @@
 # JavaScript Projects
 
- Basic Projects After learning HTML, CSS, JavaScript & Tailwind 📝
+ Basic Projects After learning HTML, CSS, JavaScript, Bootsrap & Tailwind 📝
  
  
-1)  Simple Background Changer HTML, CSS, JavaScript & TailwindCss 🎨
+1)  Simple Background Changer HTML, CSS, JavaScript, & TailwindCss 🎨
  
