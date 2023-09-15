@@ -4,6 +4,7 @@
  
  
 1)  Simple Background Changer HTML, CSS, JavaScript, & TailwindCss 🎨
-2)  Mini Food Dilevery website with HTML, CSS, JavaScript & Bootsrap,
+2)  FAQ website using HTML, CSS & Bootsrap 🔍📃
+3)  Mini Food Dilevery website with HTML, CSS, JavaScript & Bootsrap,
     a complete fully responsive website frontend website 🍔🍟🚚 
  
