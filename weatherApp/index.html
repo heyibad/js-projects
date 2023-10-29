@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        *{
+            border: none;
+            outline: none;
+        }
+    </style>
+</head>
+<body class="dark:bg-gray-700 outline-none h-screen">
+    <div class="p-4  h-full md:h-screen w-full text-gray-900  border-gray-300 bg-gray-50 dark:bg-gray-700 dark:border-gray-600 dark:text-white">
+
+<div class="innerlayer">
+<h1 class="text-4xl text-center px-5 py-10 font-bold">
+
+    <span class="title">Weather</span>
+    <span class="title">App</span>
+</h1>
+
+<form class=" w-[90%] ml-8">   
+    <label for="search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
+    <div class="relative">
+        <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+            <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
+            </svg>
+        </div>
+        <input type="search" id="search" class="search block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white" placeholder="Enter City Name" required>
+        <button type="submit"  id='submit'class="submit text-white absolute right-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Search</button>
+    </div>
+</form>
+
+</div>
+
+<div class="mt-8  m-auto  items-center main  flex-col justify-center text-center px-2 py-8 content-center hidden
+text-gray-900 border text-xl font-semibold gap-1 uppercase h-64 w-64 border-gray-300 rounded-lg bg-gray-50 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white">
+    <div class="mainlayer icon   content-center flex items-center justify-center flex-col ">
+        <img src="http://openweathermap.org/img/wn/10n.png" class=" h-24 w-24" alt="Weather Icon">
+      
+
+    </div>
+    <div class="mainlayer name ">name</div>
+    <div class="mainlayer description">description</div>
+</div>
+<div class="alert h-screen  hidden  text-center align-center justify-center pt-12 text-2xl">
+
+    <h2 class=" text-center"> An error happened, please try again later</h2>
+</div>
+
+<div class="outerlayer p-8  flex-col flex-wrap md:flex-row justify-center text-center  hidden">
+
+
+<div class=" m-4 sublayer1 px-20 py-20  text-gray-900 border border-gray-300 rounded-lg bg-gray-50 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white text-xl font-medium gap-1 uppercase">content</div>
+<div class=" m-4 sublayer2 px-20 py-20  text-gray-900 border border-gray-300 rounded-lg bg-gray-50 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white text-xl font-medium gap-1 uppercase">content</div>
+<div class=" m-4 sublayer3 px-20 py-20  text-gray-900 border border-gray-300 rounded-lg bg-gray-50 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white text-xl font-medium gap-1 uppercase">content</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+<script src="./index.js"></script> 
+</body>
+</html>
